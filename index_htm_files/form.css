@@ -1,0 +1,89 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Muli:300);
+
+h1
+{
+	font-family: 'Roboto';
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #47ad4d;
+	text-align: center;
+}
+
+
+/* Centres the page (this could be container)*/
+.body {
+    display:block;
+    margin:0 auto;
+    width:576px;
+    font-family: 'Lato';
+    font-size: 20px;
+    color: #999;
+}
+
+/* Centres the form within the page */
+form 
+{
+    margin:0 auto;
+    width:470px;
+}
+
+/* Styles the text boxes */
+input, text, file {
+	width:439px;
+	height:27px;
+	background-color:#efefef;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+}
+
+input:focus, textarea:focus {
+		border:1px solid #47ad4d;
+	}
+
+/* Styles the (textarea) text boxes */
+textarea {
+	font-family: 'Roboto';
+    font-size: 20px;
+	width:439px;
+	height:110px;
+	background-color:#efefef;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border:1px solid #dedede;
+	padding:10px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
+}
+
+/* Styles the submit button */
+#submit {
+	/* background:url(images/submit.png); */
+	color:#fff;
+	width:127px;
+	height:48px;
+	text-align: center;
+	text-indent:0px;
+	border:none;
+	margin-top:20px;
+	cursor:pointer;
+	background-color: #4ea300;
+}
+
+/* Styles the submit hover */	
+#submit:hover {
+	color:#fff;
+	background-color: #555555;
+	opacity:0.9;
+}
+
+
+
